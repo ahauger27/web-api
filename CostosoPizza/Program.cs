@@ -2,7 +2,9 @@ namespace CostosoPizza;
 
 class Program
 {
-    public static void
+    public static void Main(string[] args)
+    {
+        
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container.
@@ -26,4 +28,5 @@ class Program
         app.MapControllers();
 
         app.Run();
+    }
 }
